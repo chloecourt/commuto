@@ -1,0 +1,127 @@
+.commutoHeader {
+  margin-top: 70px;
+  text-align: center;
+  color: #171010;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.boxes {
+  width: 25%;
+  padding: 0.5%;
+  height: 12px;
+}
+
+.checkBox {
+  display: inline-block;
+}
+
+.inputFields {
+  padding: 0.5%;
+  margin: 5px 0;
+  border: 0.5px;
+  height: 28px;
+}
+
+.labelFields {
+  color: #171010;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.placesLabel {
+  color: #171010;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: #42c2ff;
+}
+
+.submitButton {
+  border: 2px solid #2b2b2b;
+  display: block;
+  background-color: #caf0f8;
+  height: 35px;
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.addButton {
+  height: 35px;
+  width: 65px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #42c2ff;
+}
+
+.deleteButton {
+  height: 35px;
+  width: 65px;
+  border-radius: 8px;
+  margin-top: 10px;
+  background-color: #92a9bd;
+}
+
+body {
+  background-color: #effffd;
+}
+
+.Map {
+  height: 500px;
+  width: 600px;
+  border: 1px solid #2b2b2b;
+  background-image: url("https://scpr.brightspotcdn.com/legacy/i/5f94dab8aca8298a1d29dadf455d8485/5b71c8cfd217300008deddbf-eight.jpg");
+}
+
+.mainFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal {
+  width: 560px;
+  height: 180px;
+  background-color: #b8fff9;
+  padding: 20px;
+  margin-left: 220px;
+  margin-top: 10px;
+  border: 2px solid #2b2b2b;
+  border-radius: 8px;
+}
+
+.outerContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.scheduleMap {
+  display: flex;
+}
+
+#hbHeader {
+  background-color: aquamarine;
+}
+
+.scheduleContainer {
+  flex: column;
+  align-items: center;
+}
